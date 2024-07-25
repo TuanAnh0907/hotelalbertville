@@ -1,0 +1,485 @@
+/* @override
+	http://localhost:8888/52_hotelalbertville.net%20/skins/default/style.css */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* BODY */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #6f6226 url("/skins/default/images/bgHA.jpg") no-repeat center top;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+/* TITRE DU SITE */
+
+.titre {
+    font-size: 32px;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: bold;
+    color: #7e1417;
+}
+
+/* TEXTE GLOBAL DU SITE */
+
+html, p, td {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 12px;
+    color: #000000;
+}
+
+ul, li {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 1.333em;
+    color: #000000;
+}
+
+hr {
+    color: #8f0707;
+    background-color: #8f0707;
+    height: 1px;
+    border: 0;
+}
+
+input, textarea {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 1em;
+    color: #4a4848;
+}
+
+.small {
+    font-size: 10px;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: normal;
+}
+
+/* LIENS */
+
+a:link {
+    color: #000000;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #000000;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #7e1417;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #000000;
+    text-decoration: underline;
+}
+
+
+/* ------------------------------------ */
+/* TABLE GLOBALE */
+
+#bloc-contenu {
+    xmin-height: 225px;
+    overflow: hidden;
+    padding: 0;
+    padding-top: 10px;
+    position: absolute;
+    top: -12;
+    width: 980px;
+    z-index: 1;
+}
+
+.tableGlobale {
+    /* background-color: #ffffff; */
+    border: solid #FFFFFF 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: url("/skins/default/style.css") repeat-y center top;
+    border-collapse: collapse;
+}
+
+/* ------------------------------------ */
+/* TABLE CONTENU */
+
+.tableContenu {
+    border: 0 solid #661111;
+    margin: 0;
+    padding-top: 10px;
+    width: 980px;
+    vertical-align: top;
+    background: #ffffff url("/skins/default/style.css") repeat-y top left;
+    border-collapse: collapse;
+}
+
+.tdContenu ul, .tdContenu ol {
+    padding-left: 20px
+}
+
+div#head {
+    z-index: 2;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+div#bghead {
+    position: absolute;
+    z-index: 1;
+}
+
+/* CELLULE DU CONTENU */
+
+.tdContenu {
+    background: transparent url("/skins/default/style.css") no-repeat left top;
+    border: solid #000000 0px;
+    margin: 0px;
+    padding: 0 0 0 20px;
+    width: 735px;
+    vertical-align: top;
+}
+
+
+/* CELLULE DU MENU */
+
+.tdMenu {
+    padding-top: 0;
+    width: 210px;
+    vertical-align: top;
+    border-right: dashed #993233 0;
+    text-align: left;
+}
+
+.headmenu a {
+    padding-left: 10px;
+}
+
+.tableDuMenu {
+    border: solid #bbbbbb 0;
+    width: 100%;
+    vertical-align: top;
+    padding-left: 10px;
+    background: #ffffff url("/skins/default/images/bgcontent.jpg") repeat-y top left;
+}
+
+.tableTitreDuMenu {
+    border-left: solid #412404 0;
+    margin: 0px;
+    padding: 3px 0 3px 5px;
+    width: 100%;
+    vertical-align: top;
+    background: transparent url("/skins/default/style.css") no-repeat bottom right;
+}
+
+.titresMenu {
+    font-size: 14px;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 0px;
+    xtext-transform: uppercase;
+}
+
+.liensMenu {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.333em;
+    color: #000000;
+    margin-left: 10px;
+    padding: 5px 0 5px 5px;
+    width: 200px;
+}
+
+a.liensMenu {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.333em;
+    color: #8f0707;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+a.liensMenu:hover {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.333em;
+    color: #8f0707;
+    margin-left: 0px;
+    text-decoration: underline;
+}
+
+a.liensMenu:visited {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.333em;
+    color: #8f0707;
+    margin-left: 0px;
+}
+
+.tableDuMenu ul, .tableDuMenu li {
+    list-style-type: none;
+    padding-left: 0;
+    background: transparent url("/skins/default/style.css") no-repeat bottom right;
+    color: #8f0707;
+    padding: 0 0 0 15px;
+}
+
+.tableDuMenu ul, .tableDuMenu li:hover {
+    list-style-type: none;
+    padding-left: 0;
+    background: transparent url("/skins/default/style.css") no-repeat bottom right;
+    padding: 0 0 0 15px;
+    text-decoration: none;
+}
+
+.tableListeDuMenu {
+    /* background-color: #eeeeee; */
+    /* background-image: url('/skins/default/style.css'); */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: solid #dddddd 0px;
+}
+
+
+/* ------------------------------------ */
+/* TITRES RUBRIQUES (BIENVENUE, ACTUALITE, PAGES) */
+
+.tableTitreRubriques {
+    background: transparent url("/skins/default/style.css") no-repeat top right;
+    margin: 0;
+    padding: 0 0 0 5px;
+    border-bottom: solid #eeeeee 1px;
+    width: 98%;
+}
+
+.titreRubriques {
+    font-size: 18px;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: bold;
+    color: #8f0707;
+    text-transform: uppercase;
+}
+
+
+/* ------------------------------------ */
+/* ARTICLES */
+
+.tableTitreArticle {
+    xbackground-color: #993233;
+    background: transparent url('/skins/default/style.css') no-repeat left top;
+    margin-top: 0;
+    padding: 0 0 0 0;
+    width: 99%;
+    border-bottom: solid #000000 0;
+}
+
+.titreArticle {
+    font-size: 14px;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: bold;
+    color: #8f0707;
+    xtext-transform: uppercase;
+}
+
+.tableArticle {
+    background-color: transparent;
+    background-image: url('/skins/default/style.css');
+    margin: 0;
+    padding: 3px;
+    border: solid #dddddd 0px;
+    width: 100%;
+    font-size: 14px;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: normal;
+    color: #000000;
+}
+
+
+/* ------------------------------------ */
+/* PAGE CONTACT */
+
+.tableContact {
+    background-color: transparent;
+    border: 0 solid #FBEACE;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: normal;
+    color: #4a4848;
+}
+
+.tableContact input[type="text"] {
+    height: 21px;
+    width: 185px;
+    border: 1px solid #777777;
+    background: #ffffff;
+}
+
+.tableContact TEXTAREA {
+    border: 1px solid #777777;
+    background: #ffffff;
+}
+
+/* ------------------------------------ */
+/* MEDIAS */
+
+.tableVideo {
+    width: 95%;
+    background: transparent;
+/ / #000000 url("/skins/default/easy-img/fnd-video.png") repeat-x left top;
+    border: 0 solid #aaaaaa;
+}
+
+.tableAudio {
+    width: 95%;
+    border-top: 1px dashed gray;
+    border-bottom: 1px dashed gray;
+    margin-top: 10px;
+}
+
+
+/* ------------------------------------ */
+/* IMAGES */
+
+img {
+    vertical-align: top;
+    border: 0;
+}
+
+a img {
+    border: 0;
+}
+
+/* HEADERS */
+
+h1 {
+    color: #242E74;
+    font-size: 18px;
+    font-family: Arial, Verdana, sans-serif;
+    line-height: 1.166em;
+    font-weight: bold;
+    margin: 3px 0 6px 0;
+}
+
+h2 {
+    color: #1d1d1d;
+    font-size: 16px;
+    font-family: Arial, Verdana, sans-serif;
+    line-height: 1.166em;
+    font-weight: normal;
+    margin: 3px 0 6px 0;
+}
+
+h3 {
+    color: #1d1d1d;
+    font-size: 14px;
+    font-family: Arial, Verdana, sans-serif;
+    line-height: 1.166em;
+    font-weight: normal;
+    margin: 3px 0 6px 0;
+}
+
+/* ------------------------------------ */
+/* FORMULAIRES */
+
+input, select {
+    vertical-align: middle;
+    font-weight: normal;
+}
+
+.input {
+    width: 203px;
+    height: 21px;
+    border: 1px solid #cfcfcf;
+    background: #ffffff;
+    padding: 0 0 0 5px;
+    font-size: 10px;
+}
+
+.select {
+    border: 1px solid #cfcfcf;
+    background: #eeeeee;
+    padding: 0 0 0 3px;
+    font-size: 14px;
+}
+
+.TEXTAREA {
+    width: 600px;
+    height: 302px;
+    border: 1px solid #b4b4b4;
+    background: #ffffff;
+    padding: 0 0 0 5px;
+    overflow: auto;
+    font-size: 18px;
+}
+
+
+/* ------------------------------------ */
+/* TEXTE DU PIED DE PAGE */
+
+.z {
+    font-size: 9px;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: normal;
+    color: #000000;
+}
+
+a.z:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+a.z:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+a.z:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+a.z:active {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 10px;
+    font-family: Arial, Verdana, sans-serif;
+    font-weight: normal;
+    color: #000000;
+}
+
+/*
+     FILE ARCHIVED ON 05:21:44 Jan 12, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:53:46 Jul 25, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.829
+  exclusion.robots: 0.035
+  exclusion.robots.policy: 0.017
+  esindex: 0.024
+  cdx.remote: 201.68
+  LoadShardBlock: 161.797 (3)
+  PetaboxLoader3.datanode: 198.77 (4)
+  PetaboxLoader3.resolve: 154.64 (2)
+  load_resource: 200.089
+*/
